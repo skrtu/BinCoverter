@@ -20,13 +20,11 @@ namespace BinCoverter
 
             string strTarget = Convert.ToString(args[0]);
 
-            Console.WriteLine("Target File to Covert: " + strTarget);
+            Console.WriteLine("Target Binary to Covert: " + strTarget);
             targetFile = strTarget;
 
             string strBlob = BinaryCovert(targetFile);
             Console.WriteLine("\n" + strBlob + "\n");
-
-            Console.ReadKey();
         }
 
         public static string BinaryCovert(string targetFile)
