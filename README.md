@@ -9,8 +9,8 @@ C# Console Application that is used to convert a target binary
 ### Example Output
 
 ```
-C:\Tools\>BinCoverter.exe C:\Tools\Target.exe
-Target File to Covert: C:\Target.exe
+C:\Tools>BinCoverter.exe C:\Tools\Target.exe
+Target File to Covert: C:\Tools\Target.exe
 
 779014403000400025525500184000000064...
 ```
