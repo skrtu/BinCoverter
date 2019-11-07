@@ -16,11 +16,12 @@ namespace BinCoverter
     {
         static void Main(string[] args)
         {
-            // C:\Users\3kthe\source\repos\T1181Target\T1181Target\bin\x64\Release\T1181Target.exe
             string targetFile;
 
-            Console.WriteLine("Target File to Covert:");
-            targetFile = Console.ReadLine();
+            string strTarget = Convert.ToString(args[0]);
+
+            Console.WriteLine("Target File to Covert: " + strTarget);
+            targetFile = strTarget;
 
             string strBlob = BinaryCovert(targetFile);
             Console.WriteLine("\n" + strBlob + "\n");
